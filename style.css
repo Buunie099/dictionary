@@ -19,10 +19,12 @@
 .search-icon {
   position: absolute;
   transform: translateY(-50%);
+  top: 50%;
   width: 32px;
   height: 32px;
   transition: opacity 0.3s ease-in-out;
   z-index: 2;
+  pointer-events: none;
 }
 
 .search-click:focus {
