@@ -1,7 +1,3 @@
-html {
-  color-scheme: "dark";
-}
-
 .search-container {
   position: relative;
   width: 50px;
@@ -50,4 +46,12 @@ html {
 .search-click:focus::placeholder {
   opacity: 1;
   transition: opacity .7s ease-in-out;
+}
+
+.redirect {
+  color: #818181;
+}
+
+.redirect:hover {
+  color: #dee2e6;
 }
