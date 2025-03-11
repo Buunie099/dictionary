@@ -18,10 +18,8 @@
 
 .search-icon {
   position: absolute;
-  transform: translateY(-50%);
+  right: 50%;
   top: 50%;
-  margin-left: 5px;
-  margin-right: 5px;
   width: 32px;
   height: 32px;
   transition: opacity 0.3s ease-in-out;
@@ -44,5 +42,5 @@
 
 .search-click:focus::placeholder {
   opacity: 1;
-  transition: 3s ease-in-out;
+  transition: opacity 3s ease-in-out;
 }
