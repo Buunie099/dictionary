@@ -11,7 +11,7 @@
   }
   .search-click:focus {
     width: 300px;
-    padding-left: 50px;
+    padding-left: 5px;
   }
   .search-click {
     position: relative;
