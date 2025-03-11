@@ -18,8 +18,9 @@
 
 .search-icon {
   position: absolute;
-  right: 50%;
+  right: 10px;
   top: 50%;
+  transform: translateY(-50%);
   width: 32px;
   height: 32px;
   transition: opacity 0.3s ease-in-out;
