@@ -34,3 +34,12 @@
 .search-container:has(.search-click:focus) .search-icon {
   opacity: 0;
 }
+
+.search-click::placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.search-click:focus::placeholder {
+  opacity: 0;
+}
