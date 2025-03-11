@@ -6,6 +6,7 @@
 }
 
 .search-click {
+  position: absolute;
   width: 100%;
   right: 0;
   transition: width 0.3s ease-in-out, transform 0.3s ease-in-out;
