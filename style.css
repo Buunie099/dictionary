@@ -11,9 +11,10 @@
   width: 50px;
   height: 50px;
   right: 0;
-  transition: width 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out, transform 0.3s ease-in-out, color .3s;
   transform-origin: right center;
   z-index: 1;
+  color: #212529;
 }
 
 .search-icon {
@@ -30,6 +31,7 @@
 
 .search-click:focus {
   width: 300px;
+  color: #dee2e6;
 }
 
 #searchBar:focus + .search-icon {
