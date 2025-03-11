@@ -1,4 +1,4 @@
-.search-click {
+.search-container {
     border: 1px solid #ccc;
     outline: none;
     background-size: 22px;
@@ -9,16 +9,16 @@
     padding: 25px;
     transition: all 0.5s;
   }
-  .search-click:focus {
+  .search-container:focus {
     width: 300px;
     padding-left: 5px;
   }
-  .search-click {
+  .search-container {
     position: relative;
     overflow: hidden;
     height: 50px;
   }
-  .search-click input {
+  .search-container input {
     background: transparent;
     border: 1px solid #ccc;
     outline: none;
@@ -38,6 +38,6 @@
     height: 20px;
     transition: opacity 0.3s ease-in-out;
 }
-.search-click:focus + .search-icon {
+.search-container + .search-icon {
   opacity: 0;
 }
