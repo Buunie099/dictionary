@@ -24,6 +24,6 @@
   width: 300px; /* Expanded width */
 }
 
-.search-container:has(.search-bar:focus) .search-icon {
+.search-container:has(.search-click:focus) .search-icon {
   opacity: 0;
 }
