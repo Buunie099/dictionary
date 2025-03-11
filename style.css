@@ -32,7 +32,7 @@
   width: 300px;
 }
 
-.search-container:focus + .search-icon {
+#searchBar:focus + .search-icon {
   opacity: 0;
 }
 
