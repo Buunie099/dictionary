@@ -55,3 +55,7 @@
 .redirect:hover {
   color: #dee2e6;
 }
+
+.definition {
+  padding: 3px;
+}
