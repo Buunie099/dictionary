@@ -29,6 +29,6 @@
     padding: 10px;
   }
   
-.search-bar:focus + .search-icon {
+.search-click:focus + .search-icon {
   opacity: 0;
 }
