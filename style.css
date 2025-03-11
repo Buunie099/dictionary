@@ -1,12 +1,12 @@
 .search-container {
   position: relative;
-  width: 200px; /* Initial width */
+  width: 50px;
   transition: width 0.3s ease-in-out;
 }
 
 .search-click {
   width: 100%;
-  padding-left: 35px; /* Make space for the icon */
+  padding-left: 35px;
   transition: width 0.3s ease-in-out;
 }
 
@@ -24,6 +24,6 @@
   width: 300px; /* Expanded width */
 }
 
-.search-click:focus + .search-icon {
+.search-container:has(.search-bar:focus) .search-icon {
   opacity: 0;
 }
