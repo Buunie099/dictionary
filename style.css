@@ -1,13 +1,13 @@
 .search-container {
   position: relative;
   width: 50px;
-  transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transform-origin: right center;
 }
 
 .search-click {
   width: 100%;
   right: 0;
-  padding-left: 35px;
   transition: width 0.3s ease-in-out, transform 0.3s ease-in-out;
   transform-origin: right center;
 }
