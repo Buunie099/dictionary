@@ -32,16 +32,16 @@
   width: 300px;
 }
 
-.search-container:has(.search-click:focus) .search-icon {
+.search-container:focus + .search-icon {
   opacity: 0;
 }
 
 .search-click::placeholder {
   opacity: 0;
-  transition: 3s ease-in-out;
+  transition: .7s ease-in-out;
 }
 
 .search-click:focus::placeholder {
   opacity: 1;
-  transition: opacity 3s ease-in-out;
+  transition: opacity .7s ease-in-out;
 }
