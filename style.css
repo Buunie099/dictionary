@@ -37,9 +37,4 @@
 
 .search-click::placeholder {
   opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.search-click:focus::placeholder {
-  opacity: 1;
 }
