@@ -6,8 +6,10 @@
 
 .search-click {
   width: 100%;
+  right: 0;
   padding-left: 35px;
-  transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transform-origin: right center;
 }
 
 .search-icon {
@@ -15,13 +17,13 @@
   left: 10px;
   top: 50%;
   transform: translateY(-50%);
-  width: 20px; /* Adjust as needed */
-  height: 20px;
+  width: 32px;
+  height: 32px;
   transition: opacity 0.3s ease-in-out;
 }
 
 .search-click:focus {
-  width: 300px; /* Expanded width */
+  width: 300px;
 }
 
 .search-container:has(.search-click:focus) .search-icon {
