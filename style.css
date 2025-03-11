@@ -28,7 +28,16 @@
     left: 0%;
     padding: 10px;
   }
-  
+
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px; /* Adjust as needed */
+    height: 20px;
+    transition: opacity 0.3s ease-in-out;
+}
 .search-click:focus + .search-icon {
   opacity: 0;
 }
