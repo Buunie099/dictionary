@@ -48,14 +48,6 @@
   transition: opacity .7s ease-in-out;
 }
 
-.redirect {
-  color: #818181;
-}
-
-.redirect:hover {
-  color: #dee2e6;
-}
-
 .definition {
   padding-left: 5px;
 }
